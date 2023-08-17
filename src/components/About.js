@@ -1,5 +1,4 @@
 import React from "react";
-import profpic from "../assets/images/prof.png";
 
 function About() {
   return (

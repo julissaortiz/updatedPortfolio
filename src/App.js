@@ -1,16 +1,21 @@
 import React, { useState } from "react";
-import "./App.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import About from "./components/about";
-import Portfolio from "./components/portfolio";
-import Resume from "./components/resume";
-import Contact from "./components/contact";
+// import "../src/app.css";
+import "/Users/julissaortiz/bootcamp/updatedPortfolio/src/utils/App.css";
+import Header from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Header.js";
+import Footer from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Footer";
+
+import About from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/About.js";
+import Portfolio from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Portfolio.js";
+import Resume from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Resume.js";
+import Contact from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Contact.js";
+
 function App() {
   const [page, setPage] = useState("about");
+
   const handlePage = (name) => {
     setPage(name);
   };
+
   const renderPage = () => {
     switch (page) {
       case "about":
@@ -25,6 +30,7 @@ function App() {
         return <About />;
     }
   };
+
   return (
     <div className="font-rem flex flex-col min-h-screen">
       <div className="header-app">
@@ -39,3 +45,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
