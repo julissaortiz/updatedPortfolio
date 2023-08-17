@@ -1,7 +1,5 @@
 # updatedPortfolio
 
-# react-portfolio
-
 ## User Story
 
 ```md
