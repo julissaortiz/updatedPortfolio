@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-// import "../src/app.css";
-import "/Users/julissaortiz/bootcamp/updatedPortfolio/src/utils/App.css";
-import Header from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Header.js";
-import Footer from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Footer";
+import "../src/app.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
-import About from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/About.js";
-import Portfolio from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Portfolio.js";
-import Resume from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Resume.js";
-import Contact from "/Users/julissaortiz/bootcamp/updatedPortfolio/src/components/Contact.js";
+import About from "./components/about";
+import Portfolio from "./components/portfolio";
+import Resume from "./components/resume";
+import Contact from "./components/contact";
 
 function App() {
   const [page, setPage] = useState("about");

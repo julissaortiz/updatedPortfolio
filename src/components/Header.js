@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header({ handlePage, Page }) {
+function Header({ handlePage, page }) {
   return (
     <div>
       <h1 className="text-purple">JULISSA ORTIZ</h1>

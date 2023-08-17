@@ -38,7 +38,7 @@ function Portfolio() {
           <h3>{project.title}</h3>
           <div>
             <a href={project.link}>Deployment</a>
-            <a href={project.gitHubLink}>GitHub Link</a>
+            <a href={project.gitLink}>GitHub Link</a>
           </div>
         </div>
       ))}
